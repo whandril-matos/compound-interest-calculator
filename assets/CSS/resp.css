@@ -1,0 +1,70 @@
+@media screen and (max-height:600px) {
+
+  
+    .backG{
+        height:600px;
+    }
+    .ff {
+        height:600px;
+       
+    }
+    .BC{
+        margin:10vh 20% 10vh 20%;
+    }
+    .calculate .text {
+        text-align: center;
+        margin-bottom: 30px;
+        margin-top: 0px;
+        font-size: 100%;
+       
+    }
+    .valuesEnd{
+        margin-top: 100px ;
+        
+     }
+}
+
+@media screen and (max-height:430px) {
+
+    .write {
+        
+       
+        height: auto;
+        
+        
+    }
+    .BC {
+        margin:20px 20% 0px 20%;
+    
+    }
+
+    .valuesEnd{
+        margin-top: 30px ;
+        
+    }
+
+    .backG {
+        width: 100%;
+        height:450px;
+    }
+    .ff {
+        height: 450px;
+    }
+
+
+
+}
+
+@media screen and (max-width:900px){
+    .write {
+        font-size: 85%;
+    }
+    .valuesEnd{
+        flex-direction: column;
+        height: fit-content;
+    }
+    .camp{
+        height: auto;
+        width: auto;
+    }
+}

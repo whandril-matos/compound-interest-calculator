@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>compound interest</title>
+    <link rel="stylesheet" href="./assets/CSS/reset.css">
+    <link rel="stylesheet" href="./assets/CSS/styleSite.css">
+    <link rel="stylesheet" href="./assets/CSS/resp.css">
+    <script src="./assets/JS/funcForSite.js"></script>
+    <script type="module" src="./assets/JS/callFunc.js"></script>
+    <script type="module" src="./assets/JS/func.js"></script>
+    
+</head>
+<body>
+    <div class="ff"></div>
+    <main class="generalContentC">
+        <div class="BC">
+            <div class="calculate">
+                <div class="calculate text">
+                    <h2>calculate compound interest</h2>  
+                </div>
+
+
+                <div class="baixo">
+                    <label for="nome" class="ttb" >Initial value</label>
+                    <div class="cima"> 
+                        
+                        <input class="textBox"  oninput="permitirApenasNumeros(this)" name="nome" id="initialValue" placeholder="US$">
+                    </div>
+
+                    <label for="nome" class="ttb">Interest rate</label>
+                    <div class="cima"> 
+                        
+                        <input class="textBox"  oninput="permitirApenasNumeros(this)" id="monthlyValue" placeholder="US$">
+                    </div>
+
+
+                     <label for="nome" class="ttb">Month value</label>
+                    <div class ="cima">  
+                            <input class="lado dir" oninput="permitirApenasNumeros(this)" id ="rate" placeholder="%">
+                            <select class="lado es" id ="tJ">
+                                <option value="1">MONTH</option>
+                                <option value="12">YEAR</option>
+                            </select>
+                       
+                        
+                    </div>
+
+                    <label for="nome" class="ttb">Period in</label> 
+                    <div class ="cima">    
+                            <input class="lado dir" oninput="permitirApenasNumeros(this)" id ="time" placeholder="M/Y">
+                            <select class="lado es" id ="pMA">
+                                <option value="1">MONTH</option>
+                                <option value="12">YEAR</option>
+                            </select>
+                        
+                    </div>
+                    <div class="cima">
+                    <button class="button" id="bottonSite">Calculate</button>
+                    </div>
+
+                </div>
+          
+                
+            
+                
+                
+            </div> 
+            
+        </div>
+        <div class="valuesEnd" id = "valuesEnd">
+            
+            <div class="camp"><label for=""><h6>Total gain</h6></label><p class="vl" id="ganhoT">--</p></div>
+            
+            
+            <div class="camp"><label for=""><h6>Invested capital</h6></label><p class="vl" id="capitalI">--</p></div>
+            
+    
+            <div class="camp"><label for=""><h6>Interest gain</h6></label><p class="vl" id="ganhoJ">--</p></div>        
+            </div>
+
+
+        </div>
+        <img class="backG" src="./assets/imgs/cp.jpg" />
+    <div class="write">
+        
+        <h2>How to use the compound interest calculator?</h2>
+
+        <br>
+        <ul>
+            <li>Fill in the initial value field;</li> 
+            <li>Fill in the monthly value field (It will be added at the end of each cycle);</li>
+            <li>Fill in the annual or monthly interest rate;</li>
+            <li>Fill in the period field by months or years;</li>
+            <li>Click calculate and see the result.</li>
+
+        </ul>
+        <br>
+        **If all fields are not filled in, the result will not appear.**   
+        <br>
+        <br>
+        <h2>
+            How does the compound interest formula work?
+        </h2>
+
+        <br>
+        
+        <p>
+            Compound interest or simply interest on interest is calculated using the following formula:
+        </p>
+
+        <h4>
+            To better understand the formula, follow the explanation of each variable:
+        </h4>
+        <br>
+        
+        A = P (1 + i) ^ t
+        <br>
+        <br>
+        <ul>
+            <li>A = final value, that is, the result you will have;</li>
+            <li>P = initial amount deposited;</li>
+            <li>i = interest rate;</li>
+            <li>t = investment time.</li>
+        </ul>
+        
+        <br>
+        
+        <p>
+            It is important to remember that the interest rate and time must be in the same unit.
+        </p>
+    </div>
+
+    </div>
+
+    </main>
+</body>
+</html>
