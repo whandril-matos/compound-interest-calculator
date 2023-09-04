@@ -62,18 +62,15 @@
 
 
 .write {
-    text-align:none;
     font-size: 100%;
-    
     object-fit: cover;
-    position: relative;
     padding:30px;
-    left: auto;
     width: auto;
     height: fit-content;
     align-self: center;
     background-color: rgb(226, 226, 226);
-    
+    display: flex; 
+    justify-content: center;  
 }
 
 
@@ -177,6 +174,17 @@ ul {
     padding-right: 30px;
     text-align: center;
 
+}
+.ww{
+    
+    align-items: center;
+    position: static;
+    left: 100vh;
+    
+    width:fit-content;
+    height: fit-content;
+    bottom: 10px;
+    
 }
 
 
